@@ -1,0 +1,370 @@
+hr{
+    width:30px; border-bottom:1px solid black;
+  }
+  
+  div{
+      border-radius:8px;
+      margin:10px;
+  }
+  
+  button{
+    border-radius:8px;
+    border-style:none;
+    background-color: white;
+    margin:10px;
+  }
+  body {
+    min-height: 100vh;
+    background-color: rgb(240, 242, 245);
+  }
+  
+  .box-container {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .box-container-main {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: :center; */
+    justify-content: space-between;
+    margin-top:100px;
+    padding:0px 32px 0px 32px;
+  
+  }
+  
+  #logoImg{
+    width:40px;
+    height:40px;
+  }
+  .story-item {
+    width:100px;
+    height:180px;
+    background-color: white;
+    box-shadow: 1px 1px 5px lightgray;
+  }
+  .videoTalkProfileIMG{
+    background-color:skyblue;
+    border-radius:50%;
+    width:40px;
+    height:40px;
+  
+  }
+  
+  .feed-item {
+    display:flex;
+    flex-direction:column;
+    background-color:white;
+    box-shadow: 1px 1px 5px lightgray
+  }
+  
+  .feedHeader{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin:0px 0px 12px 0px;
+    padding:12px 16px 0px 16px;
+  }
+  
+  .feedProfile{
+    background-color: grey;
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+  }
+  .feedTitle{
+    display:flex;
+    flex-direction:column;
+  }
+  
+  .feedTitlename{
+    margin:0px;
+    font-weight:bold;
+  }
+  .feedTitletime{
+    margin:0px;
+    font-size:13px;
+  }
+  .feedContent{
+    background-color: white;
+    margin:0px;
+    padding:4px 16px 16px 16px;
+  }
+  .feedContentphoto{
+    border-style: 1px solid black;
+    
+  }
+  .feedLike{
+    display:flex;
+    margin:0px 16px 0px 16px;
+    padding:10px 0px 10px 0px;
+    align-items:center;
+  
+  }
+  .feedLikeimg{
+    width:18px;
+    height:18px;
+    display:none;
+  }
+  .feedLikecounts{
+    padding:0px 0px 0px 8px;
+  }
+  .feedButtons{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin:0px 16px 0px 16px;
+    padding:4px 0px 4px 0px;
+  }
+  .feedLikebutton{
+    display:flex;
+    background-color: white;
+    margin:0px;
+    height:32px;
+    font-size:15px;
+    font-weight:bold;
+  }
+  .feedCommentbutton{
+    display:flex;
+    background-color: white;
+    margin:0px;
+    height:32px;
+    font-size:15px;
+    font-weight:bold;
+  }
+  .feedSharebutton{
+    display:flex;
+    background-color: white;
+    margin:0px;
+    height:32px;
+    font-size:15px;
+    font-weight:bold;
+  }
+  .feedCommentshow{
+    background-color: white;
+    display:none;
+  }
+  .feedCommentprofile{
+    width:32px;
+    height:32px;
+    background-color: lightgray;
+    border-style: solid gray;
+    border-radius:50%;
+  }
+  .feedCommentcontent{
+    width:390px;
+    height:36px;
+    border-style:none;
+    border-radius:30px; 
+    background-color: rgb(240, 242, 245);
+    
+  }
+  .postingButton{
+    display:flex;
+    align-items:center;
+    margin:0;
+    padding:8px;
+  }
+  .postingbutton-img{
+    width:24px;
+    height:24px;
+  }
+  
+  #header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow:0px 2px 5px lightgray;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    margin:0px;
+    border-radius:0px;
+    min-height:60px;
+  }
+  
+  #headerLeft{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin:0px;
+  }
+  
+  #headerLogoimg{
+    margin:0px 0px 0px 16px;
+  }
+  
+  #headerSearchimg{
+    border-style:none;
+    border-radius:30px;
+    background-color:rgb(240, 242, 245);
+    height:40px;
+    margin:0px 0px 0px 8px;
+    padding:4px 16px 4px 16px;
+  }
+  #headerCenter{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    margin:0px;
+  
+  }
+  
+  #headerCentericons{
+    display:flex;
+    align-items:center;
+  }
+  .header-center-icon{
+    width:50px;
+    height:50px;
+    margin:0px 0px 0px 8px;
+  }
+  
+  
+  #headerRight{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin:0px;
+  }
+  
+  #headerRighticons{
+   display:flex;
+   align-items:center;
+   margin:0px;
+  }
+  
+  .header-right-icon{
+    width:45px;
+    height:45spx;
+    margin:0px;
+  }
+  
+  #box-container-left{
+    display:flex;
+    flex-direction: column;
+    width:25%;
+    margin-top:100px;
+    background-color: rgb(240, 242, 245);
+  }
+  
+  .left-items{
+  
+  }
+  .side-sec-txt{
+    font-size: 17px;
+    font-weight: 600;
+    color: #65676B;
+  }
+  
+  #box-container-right{
+    display:flex;
+    flex-direction: column;
+    width:25%;
+    margin-top:100px;
+    background-color: rgb(240, 242, 245);
+  }
+  .right-items{
+  
+  }
+  
+  #storyContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  #feedContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  #myPosting {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 1px 1px 5px lightgray;
+    
+  }
+  
+  #writePosting {
+      display:flex;
+      flex-direction: row;
+      background-color: white;
+      
+    }
+  #postingProfile{
+      width:40px;
+      height:40px;
+      border-radius: 50%;;
+      background-color:skyblue;
+      
+  }
+  #postingInput{
+      width:50%;
+      background-color: rgb(240, 242, 245);
+      border-style:none;
+      border-radius:30px;
+      padding:0px 12px 0px 12px;
+      
+  }
+  
+  #postingButtons {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+  }
+  
+  #postingLivecast{
+    display:flex;
+    font-size:15px;
+    font-weight:bold;
+  
+  }
+  
+  #postingPhoto{
+    display:flex;
+    font-size:15px;
+    font-weight:bold;
+  }
+  
+  #postingMood{
+    display:flex;
+    font-size:15px;
+    font-weight:bold;
+  }
+  
+  #videoTalk {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 1px 1px 5px lightgray;
+  }
+  
+  #videoTalkTitle{
+    display:flex;
+    align-items:center;
+    margin:0px;
+    padding:12px 16px 0px 16px;
+  }
+  
+  #videoTalkimg{
+    width:24px;
+    height:24px;
+    padding:4px;
+  }
+  
+  #videoTalkProfiles{
+      display:flex;
+      flex-direction:row;
+      margin:0px;
+      padding:0px 16px 12px 16px;
+     
+    }
