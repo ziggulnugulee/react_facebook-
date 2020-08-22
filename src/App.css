@@ -28,176 +28,194 @@
   color: #61dafb;
 }
 
-hr{
-  width:30px; border-bottom:1px solid black;
+hr {
+  width: 30px;
+  border-bottom: 1px solid black;
 }
 
-div{
-    border-radius:8px;
-    margin:10px;
+div {
+  border-radius: 8px;
+  margin: 10px;
 }
 
-button{
-  border-radius:8px;
-  border-style:none;
+button {
+  border-radius: 8px;
+  border-style: none;
   background-color: white;
-  margin:10px;
+  margin: 10px;
 }
+
 body {
   min-height: 100vh;
   background-color: rgb(240, 242, 245);
 }
 
+ul {
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
 .App .boxContainer {
   display: flex;
   flex-direction: row;
-  
 }
+
 .App .boxContainermain {
   display: flex;
   flex-direction: column;
   /* justify-content: :center; */
   justify-content: space-between;
-  margin-top:100px;
-  padding:0px 32px 0px 32px;
+  margin-top: 100px;
+  padding: 0px 32px 0px 32px;
+
 
 }
 
-#logoImg{
-  width:40px;
-  height:40px;
+#logoImg {
+  width: 40px;
+  height: 40px;
 }
-.App .storyItem {
-  width:100px;
-  height:180px;
-  background-color: white;
-  box-shadow: 1px 1px 5px lightgray;
-}
-.App .videoTalkProfileIMG{
-  background-color:skyblue;
-  border-radius:50%;
-  width:40px;
-  height:40px;
 
+.App .videoTalkProfileIMG {
+  background-color: skyblue;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
 
 .App .feedItem {
-  display:flex;
-  flex-direction:column;
-  background-color:white;
-  box-shadow: 1px 1px 5px lightgray
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 1px 1px 5px lightgray;
 }
 
-.App .feedHeader{
-  display:flex;
-  flex-direction:row;
-  align-items:center;
-  margin:0px 0px 12px 0px;
-  padding:12px 16px 0px 16px;
+.App .feedHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 0px 12px 0px;
+  padding: 12px 16px 0px 16px;
 }
 
-.App .feedProfile{
+.App .feedProfile {
   background-color: grey;
   border-radius: 50%;
-  width:40px;
-  height:40px;
-}
-.App .feedTitle{
-  display:flex;
-  flex-direction:column;
+  width: 40px;
+  height: 40px;
 }
 
-.App .feedTitlename{
-  margin:0px;
-  font-weight:bold;
+.App .feedTitle {
+  display: flex;
+  flex-direction: column;
 }
-.App .feedTitletime{
-  margin:0px;
-  font-size:13px;
+
+.App .feedTitlename {
+  margin: 0px;
+  font-weight: bold;
 }
-.App .feedContent{
+
+.App .feedTitletime {
+  margin: 0px;
+  font-size: 13px;
+}
+
+.App .feedContent {
   background-color: white;
-  margin:0px;
-  padding:4px 16px 16px 16px;
+  margin: 0px;
+  padding: 4px 16px 16px 16px;
 }
-.App .feedContentphoto{
+
+.App .feedContentphoto {
   border-style: 1px solid black;
-  
 }
-.App .feedLike{
-  display:flex;
-  margin:0px 16px 0px 16px;
-  padding:10px 0px 10px 0px;
-  align-items:center;
 
+.App .feedLike {
+  display: flex;
+  margin: 0px 16px 0px 16px;
+  padding: 10px 0px 10px 0px;
+  align-items: center;
 }
-.App .feedLikeimg{
-  width:18px;
-  height:18px;
-  display:none;
+
+.App .feedLikeimg {
+  width: 18px;
+  height: 18px;
+  display: none;
 }
-.App .feedLikecounts{
-  padding:0px 0px 0px 8px;
+
+.App .feedLikecounts {
+  padding: 0px 0px 0px 8px;
 }
-.App .feedButtons{
-  display:flex;
-  flex-direction:row;
+
+.App .feedButtons {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  margin:0px 16px 0px 16px;
-  padding:4px 0px 4px 0px;
+  margin: 0px 16px 0px 16px;
+  padding: 4px 0px 4px 0px;
 }
-.App .feedLikebutton{
-  display:flex;
+
+.App .feedLikebutton {
+  display: flex;
   background-color: white;
-  margin:0px;
-  height:32px;
-  font-size:15px;
-  font-weight:bold;
+  margin: 0px;
+  height: 32px;
+  font-size: 15px;
+  font-weight: bold;
 }
-.App .feedCommentbutton{
-  display:flex;
+
+.App .feedCommentbutton {
+  display: flex;
   background-color: white;
-  margin:0px;
-  height:32px;
-  font-size:15px;
-  font-weight:bold;
+  margin: 0px;
+  height: 32px;
+  font-size: 15px;
+  font-weight: bold;
 }
-.App .feedSharebutton{
-  display:flex;
+
+.App .feedSharebutton {
+  display: flex;
   background-color: white;
-  margin:0px;
-  height:32px;
-  font-size:15px;
-  font-weight:bold;
+  margin: 0px;
+  height: 32px;
+  font-size: 15px;
+  font-weight: bold;
 }
-.App .feedCommentshow{
+
+.App .feedCommentshow {
   background-color: white;
-  display:none;
+  display: none;
 }
-.App .feedCommentprofile{
-  width:32px;
-  height:32px;
+
+.App .feedCommentprofile {
+  width: 32px;
+  height: 32px;
   background-color: lightgray;
   border-style: solid gray;
-  border-radius:50%;
+  border-radius: 50%;
 }
-.App .feedCommentcontent{
-  width:390px;
-  height:36px;
-  border-style:none;
-  border-radius:30px; 
+
+.App .feedCommentcontent {
+  width: 390px;
+  height: 36px;
+  border-style: none;
+  border-radius: 30px;
   background-color: rgb(240, 242, 245);
-  
 }
-.App .postingButton{
-  display:flex;
-  align-items:center;
-  margin:0;
-  padding:8px;
+
+.App .postingButton {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 8px;
 }
-.App .postingbutton-img{
-  width:24px;
-  height:24px;
+
+.App .postingbutton-img {
+  width: 24px;
+  height: 24px;
 }
 
 #header {
@@ -206,103 +224,121 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  box-shadow:0px 2px 5px lightgray;
-  position:fixed;
-  top:0;
-  right:0;
-  left:0;
-  margin:0px;
-  border-radius:0px;
-  min-height:60px;
+  box-shadow: 0px 2px 5px lightgray;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 0px;
+  border-radius: 0px;
+  min-height: 60px;
 }
 
-#headerLeft{
-  display:flex;
+#headerLeft {
+  display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  margin:0px;
+  margin: 0px;
 }
 
-#headerLogoimg{
-  margin:0px 0px 0px 16px;
+#headerLogoimg {
+  margin: 0px 0px 0px 16px;
 }
 
-#headerSearchimg{
-  border-style:none;
-  border-radius:30px;
-  background-color:rgb(240, 242, 245);
-  height:40px;
-  margin:0px 0px 0px 8px;
-  padding:4px 16px 4px 16px;
+#headerSearchimg {
+  border-style: none;
+  border-radius: 30px;
+  background-color: rgb(240, 242, 245);
+  height: 40px;
+  margin: 0px 0px 0px 8px;
+  padding: 4px 16px 4px 16px;
 }
-#headerCenter{
-  display:flex;
+
+#headerCenter {
+  display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items:center;
-  margin:0px;
-
+  align-items: center;
+  margin: 0px;
 }
 
-#headerCentericons{
-  display:flex;
-  align-items:center;
-}
-.headerCenterIcon{
-  width:50px;
-  height:50px;
-  margin:0px 0px 0px 8px;
+#headerCentericons {
+  display: flex;
+  align-items: center;
 }
 
+.headerCenterIcon {
+  width: 50px;
+  height: 50px;
+  margin: 0px 0px 0px 8px;
+}
 
-#headerRight{
-  display:flex;
+#headerRight {
+  display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  margin:0px;
+  margin: 0px;
 }
 
-#headerRighticons{
- display:flex;
- align-items:center;
- margin:0px;
+#headerRighticons {
+  display: flex;
+  align-items: center;
+  margin: 0px;
 }
 
-.App .headerRighticon{
-  width:45px;
-  height:45spx;
-  margin:0px;
+.App .headerRighticon {
+  width: 45px;
+  height: 45spx;
+  margin: 0px;
 }
 
-#box-container-left{
-  display:flex;
+#box-container-left {
+  display: flex;
   flex-direction: column;
-  width:25%;
-  margin-top:100px;
+  width: 25%;
+  margin-top: 100px;
   background-color: rgb(240, 242, 245);
 }
 
-.App .leftItems{
+.left-items {
+  font-size: 20px;
+  text-align: left;
+  padding: 16px 8px 16px 8px;
+}
+
+.right-items>p {
+  font-size: 20px;
+  font-weight: bold;
+  color: grey;
+  text-align: left;
 
 }
-.App .sideSectxt{
+
+.right-items li {
+  font-size: 18px;
+  text-align: left;
+  padding: 12px 8px 12px 8px;
+}
+
+
+
+.App .sideSectxt {
   font-size: 17px;
   font-weight: 600;
-  color: #65676B;
+  color: #65676b;
 }
 
-#box-container-right{
-  display:flex;
+#box-container-right {
+  display: flex;
   flex-direction: column;
-  width:25%;
-  margin-top:100px;
+  width: 25%;
+  margin-top: 100px;
   background-color: rgb(240, 242, 245);
 }
-.App .rightItems{
 
-}
+
 
 #storyContainer {
   display: flex;
@@ -321,54 +357,51 @@ body {
   flex-direction: column;
   background-color: white;
   box-shadow: 1px 1px 5px lightgray;
-  
 }
 
 #writePosting {
-    display:flex;
-    flex-direction: row;
-    background-color: white;
-    
-  }
-#postingProfile{
-    width:40px;
-    height:40px;
-    border-radius: 50%;;
-    background-color:skyblue;
-    
+  display: flex;
+  flex-direction: row;
+  background-color: white;
 }
-#postingInput{
-    width:50%;
-    background-color: rgb(240, 242, 245);
-    border-style:none;
-    border-radius:30px;
-    padding:0px 12px 0px 12px;
-    
+
+#postingProfile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: skyblue;
+}
+
+#postingInput {
+  width: 50%;
+  background-color: rgb(240, 242, 245);
+  border-style: none;
+  border-radius: 30px;
+  padding: 0px 12px 0px 12px;
 }
 
 #postingButtons {
-  display:flex;
-  flex-direction:row;
-  align-items:center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-#postingLivecast{
-  display:flex;
-  font-size:15px;
-  font-weight:bold;
-
+#postingLivecast {
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
 }
 
-#postingPhoto{
-  display:flex;
-  font-size:15px;
-  font-weight:bold;
+#postingPhoto {
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
 }
 
-#postingMood{
-  display:flex;
-  font-size:15px;
-  font-weight:bold;
+#postingMood {
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 #videoTalk {
@@ -378,31 +411,31 @@ body {
   box-shadow: 1px 1px 5px lightgray;
 }
 
-#videoTalkTitle{
-  display:flex;
-  align-items:center;
-  margin:0px;
-  padding:12px 16px 0px 16px;
+#videoTalkTitle {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 12px 16px 0px 16px;
 }
 
-#videoTalkimg{
-  width:24px;
-  height:24px;
-  padding:4px;
+#videoTalkimg {
+  width: 24px;
+  height: 24px;
+  padding: 4px;
 }
 
-#videoTalkProfiles{
-    display:flex;
-    flex-direction:row;
-    margin:0px;
-    padding:0px 16px 12px 16px;
-   
-  }
+#videoTalkProfiles {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px 16px 12px 16px;
+}
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
